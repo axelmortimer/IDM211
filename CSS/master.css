@@ -7,23 +7,21 @@ main {
 	background-color: #f1f1f1;
 }
 
-main h1 {
-	font-family: 'Lobster', cursive;
-	font-size: 3.5rem;
-}
-
 main h3 {
 	font-size: 2rem;
 }
 
-nav {
+.lobster {
 	font-family: 'Lobster', cursive;
+	font-size: 3.5rem;
+}
+
+.lobster ul {
 	font-weight: lighter;
-	font-size: 1.66rem;
+	font-size: 2rem;
 }
 
 #profile {
-	font-family: 'Lobster', cursive;
 	font-size: 3.5rem;
 	background-color: #536dfe;
 	color: white;
@@ -31,11 +29,10 @@ nav {
 
 #profile h4 {
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 }
 
-#name {
-	font-family: 'Lobster', cursive;
+.lobster #name {
 	font-size: 2.75rem;
 	background-color: #536dfe;
 	color: white;
