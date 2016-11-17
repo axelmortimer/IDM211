@@ -1,14 +1,54 @@
+* {
+  	box-sizing: border-box;
+}
+
 html {
   	font-size: 14px;
+  	font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+	background-color: #f1f1f1;
 }
 
 main {
-	font-family: 'Noto Sans', sans-serif;
-	background-color: #f1f1f1;
+	float: right;
+	margin-left: 300px;
+	padding-left: 10%;
 }
 
 main h3 {
 	font-size: 2rem;
+}
+
+a {
+	color: #536dfe;
+	text-decoration: none; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+	background-color: #536dfe;
+	color: white;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h4 {
+	font-size: 1.35rem;
+}
+
+nav {
+	width: 100%;
+}
+
+#portrait {
+	margin: 50px 100px 50px 10%;
+	float: left;
 }
 
 .lobster {
@@ -19,21 +59,19 @@ main h3 {
 .lobster ul {
 	font-weight: lighter;
 	font-size: 2rem;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    display: inline-block;
 }
 
 #profile {
+
+}
+
+#name {
 	font-size: 3.5rem;
-	background-color: #536dfe;
-	color: white;
-}
-
-#profile h4 {
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 1.2rem;
-}
-
-.lobster #name {
-	font-size: 2.75rem;
 	background-color: #536dfe;
 	color: white;
 }
