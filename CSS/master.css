@@ -17,8 +17,8 @@ main h3 {
 }
 
 a {
-	color: #536dfe;
-	text-decoration: none; 
+	text-decoration: none;
+	color: black;
 }
 
 header {
@@ -70,7 +70,11 @@ nav ul li:hover {
 #shortbio {
 	float: right;
 	margin-left: 207.5px;
+	margin-right: 50px;
 	padding: 15px 15px 15px 15%;
+	font-size: 1.25rem;
+	font-weight: lighter;
+	line-height: 1.35;
 }
 
 .img-circle-black {
@@ -83,6 +87,8 @@ nav ul li:hover {
     border: 5px solid white;
 }
 
+/* --- Images --- */
+
 #portrait {
 	float: left;
 	margin: 50px 7.5% 50px 7.5%;
@@ -90,13 +96,21 @@ nav ul li:hover {
 
 #preview {
 	float: left;
+	margin-top: 5px;
 	margin-left: 67.5px;
 	margin-right: 67.5px;
+}
+
+#banner {
+	width: 100%;
+	margin: auto;
+	overflow: auto;
 }
 
 .lobster {
 	font-family: 'Lobster', cursive;
 	font-size: 3.5rem;
+	min-width: 400px; /* For About Me/Resume heading */
 }
 
 #top-bar {
@@ -106,35 +120,7 @@ nav ul li:hover {
   	left: 0;
   	width: 100%;
   	height: 100px;
-  	box-shadow: 0px 5px 5px #888888;
-}
-
-#top-bar ul {
-	min-width: 1000px;
-}
-
-#top-bar ul li {
-	font-weight: lighter;
-	font-size: 2rem;
-	list-style-type: none;
-    display: inline-block;
-    overflow: auto;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-}
-
-#top-bar ul li:hover {
-	background: #536dfe;
-    border-radius: 25px;
-}
-
-#top-bar ul li a:hover {
-	color: white;
+  	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);;
 }
 
 #top-bar div {
@@ -144,6 +130,39 @@ nav ul li:hover {
 	float: left;
 	padding: 5px 10px 5px 10px;
 	margin: 20px 20px 20px 10px;
+}
+
+#top-bar ul {
+	width: 850px;
+}
+
+#top-bar ul li {
+	font-weight: lighter;
+	font-size: 2rem;
+	list-style-type: none;
+    display: inline-block;
+    overflow: auto;
+    text-align: center;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#top-bar ul li a {
+	color: #536dfe;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#top-bar ul li:hover {
+	background: #536dfe;
+    border-radius: 25px;
+}
+
+#top-bar ul li a:hover {
+	color: white;
 }
 
 #top-bar div:hover {
@@ -163,20 +182,46 @@ nav ul li:hover {
 	height: 100px;
 }
 
-#banner {
-	width: 100%;
-	height: 500px;
-}
-
 .proj-preview {
 	width: 100%;
 	height: 300px;
 	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 #info {
-	min-width: 750px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	height: 300px;
+	padding-top: 20px;
+}
+
+#info h3 {
+	min-width: 850px;
+}
+
+#info a {
+	color: black;
+	text-decoration: none;
+}
+
+#info a:hover {
+	color: #536dfe;
+}
+
+#info p {
+	min-width: 850px;
+	max-width: 1000px;
+}
+
+/* --- About Me/Resume --- */
+
+.lobster a:hover {
+	color: #536dfe;
+}
+
+#bio {
+	margin-top: 50px;
+	margin-left: 345px;
+	max-width: 1000px;
+	font-size: 1.25rem;
+	font-weight: lighter;
+	line-height: 1.35;
 }
