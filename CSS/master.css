@@ -1,10 +1,12 @@
+/* --- Global --- */
+
 * {
   	box-sizing: border-box;
 }
 
 html {
   	font-size: 14px;
-  	font-family: 'Arimo', sans-serif;
+  	font-family: 'Roboto', sans-serif;
 }
 
 main h1 {
@@ -19,6 +21,11 @@ main h3 {
 a {
 	text-decoration: none;
 	color: black;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #536dfe;
 }
 
 header {
@@ -30,7 +37,7 @@ header {
 }
 
 header h4 {
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	min-width: 750px;
 }
 
@@ -59,12 +66,13 @@ nav ul li {
     border-radius: 25px;
 }
 
-nav ul li a {
+nav ul li a, nav ul li a:hover {
 	color: white;
 }
 
 nav ul li:hover {
 	box-shadow: 0px 0px 10px #616161;
+	cursor: pointer;
 }
 
 #shortbio {
@@ -115,12 +123,9 @@ nav ul li:hover {
 	min-width: 400px; /* For About Me/Resume heading */
 }
 
-a:hover {
-	color: #536dfe;
-}
-
 #hover-white li a:hover {
 	color: white;
+	cursor: pointer;
 }
 
 #top-bar {
@@ -204,7 +209,7 @@ a:hover {
 }
 
 .info h3 {
-	min-width: 1500px;
+	min-width: 1200px;
 	margin-top: 30px;
 }
 
@@ -221,6 +226,7 @@ a:hover {
 	min-width: 1000px;
 	max-width: 1000px;
 	font-weight: lighter;
+	font-size: 1.25rem;
 }
 
 /* --- About Me/Resume --- */
@@ -228,6 +234,7 @@ a:hover {
 #about-body {
 	margin-top: 50px;
 	margin-left: 345px;
+	padding-right: 100px;
 	max-width: 1000px;
 	font-size: 1.25rem;
 	font-weight: lighter;
@@ -249,19 +256,20 @@ a:hover {
 }
 
 #post h2 {
-	font-size: 2.25rem;
+	font-size: 2.5rem;
 	padding-bottom: 5px;
 }
 
 #post h3 {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	margin-top: -25px;
 	color: gray;
 }
 
 #post p {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	margin-top: 25px;
+	line-height: 1.3;
 }
 
 
