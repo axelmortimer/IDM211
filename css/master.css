@@ -31,6 +31,9 @@ a:hover {
 .lobster {
 	font-family: 'Lobster', cursive;
 	font-size: 3.5rem;
+}
+
+#lobster-toggle {
 	min-width: 400px; /* For About Me/Resume heading */
 }
 
@@ -175,7 +178,7 @@ main h3 {
 }
 
 #top-bar ul {
-	width: 850px;
+	min-width: 850px;
 }
 
 #top-bar ul li {
@@ -183,7 +186,6 @@ main h3 {
 	font-size: 2rem;
 	list-style-type: none;
     display: inline-block;
-    overflow: auto;
     text-align: center;
     height: 35px;
     margin-left: 5px;
@@ -263,6 +265,7 @@ main h3 {
 	margin-left: 345px;
 	padding-right: 100px;
 	max-width: 1000px;
+	min-width: 300px;
 	font-size: 1.25rem;
 	font-weight: lighter;
 	line-height: 1.35;
